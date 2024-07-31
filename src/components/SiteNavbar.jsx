@@ -7,13 +7,15 @@ const SiteNavBar = () => {
         <div className="flex justify-between">
             <div>
                 <div className="uppercase">
-                    <p>gym track</p> 
+                    <Link smooth className="" to="/#">
+                        <p>gym track</p> 
+                    </Link>
                 </div>
             </div>
             <div className="flex gap-10 uppercase">
-                <p className="select-none">about us</p>
-                <p className="select-none">Work with us</p>
-                <p className="select-none">Contacts</p>
+                <Link smooth className="" to="/#about">About us</Link>
+                <Link smooth className="" to="/#work">Work with us</Link>
+                <Link smooth className="" to="/#contact">Contacts</Link>
             </div>
         </div>
     )

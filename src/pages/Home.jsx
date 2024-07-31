@@ -82,7 +82,7 @@ const Home = () => {
                     </video>
                 </div>
             </div> */}
-            <div className="flex w-full max-w-fit mx-auto">
+            <div id="about" className="flex w-full max-w-fit mx-auto">
                 <div className=" flex flex-col">
                     <p className="text-8xl font-semibold leading-snug">We're <span className="text-[#E69506]">growing</span> everyday</p>
                     {/* <div className="w-1/2"> </div> */}
@@ -124,7 +124,7 @@ const Home = () => {
             </div> */}
 
             {/* Gym Track Family */}
-            <div className="w-full h-full flex flex-col gap-10 md:mb-40">
+            <div id="work" className="w-full h-full flex flex-col gap-10 md:mb-40">
                 <p className="text-8xl font-semibold">Join the Gym Track's <span className="text-[#E69506]">Family</span></p>
                 <div className="w-full h-full flex flex-row justify-between">
                     <FamilyCard 
