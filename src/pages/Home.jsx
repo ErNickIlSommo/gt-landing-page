@@ -3,11 +3,15 @@ import React from "react";
 // Components
 import ButtonCustom from "../components/ButtonCustom";
 import Parameters from "../components/Parameters";
+import FamilyCard from "../components/FamilyCard";
 
 // imports
 import presentationImage from "../images/image1.webp"
 import appImage from "../images/app/1.webp"
 import video from "../images/video.mp4"
+import Giacomo from "../images/team/Giacomo.webp"
+import Guglielmo from "../images/team/Guglielmo.webp"
+import Nicola from "../images/team/Nicola.webp"
 
 const Home = () => {
     return(
@@ -96,9 +100,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full flex flex-col gap-2">
+                <div className="w-full flex flex-col gap-2 justify-center">
                     {/* <div className="w-1/4"> </div> */}
-                    <div className=" bg-blue-500">
+                    <div className="">
                         <video controls playsInline className="h-full w-full object-cover">
                             <source src={video} type="video/mp4" />
                         </video>
@@ -107,6 +111,34 @@ const Home = () => {
                             <p className="text-white">Giacomo Calabresi</p>
                             <p className="text-[#707070]">Founder of Gym Track</p>
                     </div>
+                </div>
+
+
+            </div>
+
+            {/* Gym Track Family */}
+            <div className="w-full h-full flex flex-col gap-10 md:mb-40">
+                <p className="text-8xl font-semibold">Gym Track's <span className="text-[#E69506]">Family</span></p>
+                <div className="w-full h-full flex flex-row justify-between">
+                    <FamilyCard 
+                        image={Giacomo}
+                        name="Giacomo Calabresi"
+                        role="Business & Marketing"
+                        href="https://www.linkedin.com/in/giacomo-calabresi-70a199234/"
+                    />
+                    <FamilyCard 
+                        image={Guglielmo}
+                        name="Guglielmo Grassetto"
+                        role="Mechatronic Engineer"
+                        href="https://www.linkedin.com/in/guglielmo-grassetto-764b6b19b/"
+                    />
+
+                    <FamilyCard 
+                        image={Nicola}
+                        name="Nicola Gianuzzi"
+                        role="Computer Engineer"
+                        href="https://www.linkedin.com/in/nicola-gianuzzi-8ab1a3277/"
+                    />
                 </div>
             </div>
         </div>
