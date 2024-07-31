@@ -6,6 +6,7 @@ import Parameters from "../components/Parameters";
 
 // imports
 import presentationImage from "../images/image1.webp"
+import appImage from "../images/app/1.webp"
 
 const Home = () => {
     return(
@@ -37,6 +38,28 @@ const Home = () => {
             <div className="w-11/12 items-center max-w-fit mx-auto">
                 <p className="text-4xl font-semibold">Set your goals & track your progresses</p>
                 <Parameters /> 
+            </div>
+
+            {/* App */}
+            <div className="w-11/12 flex justify-between gap-10 items-center max-w-fit mx-auto">
+                <img src={appImage} alt="Application" />
+                <div className="flex flex-col gap-10">
+                    <div className="flex flex-col gap-4">
+                        <p className="text-5xl">innovative system</p>
+                        <p className="text-[#707070]">Lorem isdfjsdnf asdjfn</p>
+                        <hr/>
+                    </div>
+                    <div className="flex flex-col gap-4">
+                        <p className="text-5xl">Bioimpendance scale</p>
+                        <p className="text-[#707070]">Lorem isdfjsdnf asdjfn</p>
+                        <hr/>
+                    </div>
+                    <div className="flex flex-col gap-4">
+                        <p className="text-5xl">Connected App</p>
+                        <p className="text-[#707070]">Lorem isdfjsdnf asdjfn</p>
+                        <hr/>
+                    </div>
+                </div>
             </div>
         </div>
     )
