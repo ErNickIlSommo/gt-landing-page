@@ -10,7 +10,7 @@ import appImage from "../images/app/1.webp"
 
 const Home = () => {
     return(
-        <div>
+        <div className="flex flex-col gap-7 md:gap-36">
             {/* EPIGRAMMA */}
             <div className="flex flex-row">
                 <div className="w-9/12 flex flex-col mt-20 gap-y-10">
