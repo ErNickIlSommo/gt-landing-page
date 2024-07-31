@@ -12,6 +12,7 @@ import video from "../images/video.mp4"
 import Giacomo from "../images/team/Giacomo.webp"
 import Guglielmo from "../images/team/Guglielmo.webp"
 import Nicola from "../images/team/Nicola.webp"
+import unknown from "../images/team/unknown.webp"
 
 const Home = () => {
     return(
@@ -83,7 +84,7 @@ const Home = () => {
             </div> */}
             <div className="flex w-full max-w-fit mx-auto">
                 <div className=" flex flex-col">
-                    <p className="text-8xl font-semibold leading-snug">We're growing everyday</p>
+                    <p className="text-8xl font-semibold leading-snug">We're <span className="text-[#E69506]">growing</span> everyday</p>
                     {/* <div className="w-1/2"> </div> */}
                     <div className="w-1/2 pb-16 sbg-blue-600 ">
                         <p className="py-4">
@@ -116,21 +117,29 @@ const Home = () => {
 
             </div>
 
+            {/* Work with us */}
+            {/* <div>
+            <p className="text-8xl font-semibold leading-snug"><span className="text-[#E69506]">Join</span> our team</p>
+            <div></div>
+            </div> */}
+
             {/* Gym Track Family */}
             <div className="w-full h-full flex flex-col gap-10 md:mb-40">
-                <p className="text-8xl font-semibold">Gym Track's <span className="text-[#E69506]">Family</span></p>
+                <p className="text-8xl font-semibold">Join the Gym Track's <span className="text-[#E69506]">Family</span></p>
                 <div className="w-full h-full flex flex-row justify-between">
                     <FamilyCard 
                         image={Giacomo}
                         name="Giacomo Calabresi"
                         role="Business & Marketing"
                         href="https://www.linkedin.com/in/giacomo-calabresi-70a199234/"
+                        unknown={false}
                     />
                     <FamilyCard 
                         image={Guglielmo}
                         name="Guglielmo Grassetto"
                         role="Mechatronic Engineer"
                         href="https://www.linkedin.com/in/guglielmo-grassetto-764b6b19b/"
+                        unknown={false}
                     />
 
                     <FamilyCard 
@@ -138,6 +147,31 @@ const Home = () => {
                         name="Nicola Gianuzzi"
                         role="Computer Engineer"
                         href="https://www.linkedin.com/in/nicola-gianuzzi-8ab1a3277/"
+                        unknown={false}
+                    />
+                </div>
+                <div className="w-full h-full flex flex-row justify-between">
+                    <FamilyCard 
+                        image={unknown}
+                        name="Graphic designer"
+                        role="This could be you"
+                        href="https://www.linkedin.com/in/giacomo-calabresi-70a199234/"
+                        unknown={true}
+                    />
+                    <FamilyCard 
+                        image={unknown}
+                        name="Eletronic Engineer"
+                        role="This could be you"
+                        href="https://www.linkedin.com/in/guglielmo-grassetto-764b6b19b/"
+                        unknown={true}
+                    />
+
+                    <FamilyCard 
+                        image={unknown}
+                        name="Full Stack Engineer"
+                        role="This could be you"
+                        href="https://www.linkedin.com/in/nicola-gianuzzi-8ab1a3277/"
+                        unknown={true}
                     />
                 </div>
             </div>

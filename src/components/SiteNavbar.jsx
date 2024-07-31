@@ -11,9 +11,9 @@ const SiteNavBar = () => {
                 </div>
             </div>
             <div className="flex gap-10 uppercase">
-                <p>about us</p>
-                <p>Work with us</p>
-                <p>Contacts</p>
+                <p className="select-none">about us</p>
+                <p className="select-none">Work with us</p>
+                <p className="select-none">Contacts</p>
             </div>
         </div>
     )
