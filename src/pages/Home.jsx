@@ -22,8 +22,8 @@ const Home = () => {
                     </p>
                 </div>
                 <div>
-                    <div className="bg-[#E69506] text-black font-semibold">Contact us</div>
-                    <div className="bg-[#191919] font-semibold">Discover more</div>
+                    <div className="bg-[#E69506] inline-block text-black font-semibold">Contact us</div>
+                    <div className="bg-[#191919] inline-block font-semibold">Discover more</div>
                 </div>
                 <div><img src={presentationImage} /></div>
             </div>

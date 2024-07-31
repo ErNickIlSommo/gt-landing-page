@@ -21,8 +21,8 @@ function App() {
           <div className="mt-36 md:mt-24 px-3 md:px-10">
             <Routes>
               <Route index element={<Home />}/>
-              <Route path="/confirm" element={<Confirm t={t}/>} />
-              <Route path="*" element={<NotFound t={t} />} />
+              <Route path="/confirm" element={<Confirm/>} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
           <SiteFooter />
