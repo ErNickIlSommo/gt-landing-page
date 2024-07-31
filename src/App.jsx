@@ -18,7 +18,7 @@ function App() {
       <BrowserRouter>
         <SiteNavBar />
         <div className="min-h-screen flex flex-col justify-between">
-          <div className="mt-36 md:mt-24 px-3 md:px-10">
+          <div className="mt-36 md:mt-16 px-3 md:px-10">
             <Routes>
               <Route index element={<Home />}/>
               <Route path="/confirm" element={<Confirm/>} />
