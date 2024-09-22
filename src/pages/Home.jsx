@@ -10,6 +10,7 @@ import FamilyCard from "../components/FamilyCard";
 import presentationImage from "../images/image1.webp";
 
 import video from "../images/video.mp4";
+import poster from "../images/poster.png";
 
 import Giacomo from "../images/team/Giacomo.webp";
 import Guglielmo from "../images/team/Guglielmo.webp";
@@ -99,6 +100,7 @@ const Home = () => {
             <video
               controls
               playsInline
+              poster={poster}
               className="h-full w-full object-cover rounded-xl"
             >
               <source src={video} type="video/mp4" />
