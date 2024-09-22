@@ -20,7 +20,7 @@ import unknown from "../images/team/unknown.webp";
 const Home = () => {
   return (
     <div>
-      <div className=" flex flex-col gap-y-36">
+      <div className=" flex flex-col gap-y-24">
         {/* EPIGRAMMA */}
         <div className="flex flex-col xl:flex-row">
           <div className=" xl:w-9/12 flex flex-col md:mt-20 gap-5 md:gap-y-10 ">
