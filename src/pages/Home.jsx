@@ -77,9 +77,9 @@ const Home = () => {
         <div className="flex flex-col gap-5 lg:gap-y-16" id="what-is-gymtrack">
           <div className="w-full flex flex-col lg:flex-row justify-center gap-5 lg:gap-10 items-center">
             <div className="text-center xl:text-right font-semibold gap-1">
-              <p className="text-3xl lg:text-5xl">We're</p>
-              <p className="text-5xl lg:text-7xl">growing</p>
-              <p className="text-7xl lg:text-9xl">everyday</p>
+              <p className="text-3xl md:text-5xl">We're</p>
+              <p className="text-5xl md:text-7xl">growing</p>
+              <p className="text-7xl md:text-9xl">everyday</p>
             </div>
             <div className="xl:w-1/3">
               <p className="hidden xl:block md:text-lg leading-relaxed">
@@ -90,9 +90,11 @@ const Home = () => {
                 <span className="text-[#E69506] font-semibold">
                   pre-accellerator program
                 </span>
-                . We are now developing the MVP: Gym Tracker 0.1 To do so we are
-                looking to expand our team with talented and motivated people to
-                archive our goals and bring our project to life.
+                . We are now developing the MVP: Gym Tracker 1.0
+                <br />
+                To do so we are looking to expand our team with talented and
+                motivated people to archive our goals and bring our project to
+                life.
               </p>
             </div>
           </div>
@@ -115,9 +117,11 @@ const Home = () => {
               <span className="text-[#E69506] font-semibold">
                 pre-accellerator program
               </span>
-              . We are now developing the MVP: Gym Tracker 0.1 To do so we are
-              looking to expand our team with talented and motivated people to
-              archive our goals and bring our project to life.
+              . We are now developing the MVP: Gym Tracker 1.0
+              <br />
+              To do so we are looking to expand our team with talented and
+              motivated people to archive our goals and bring our project to
+              life.
             </p>
           </div>
         </div>
@@ -163,9 +167,9 @@ const Home = () => {
             <p className="text-xs sm:text-sm leading-tight xl:leading-relaxed">
               If you are interested in participating in the project write to us
               at{" "}
-              <a href="mailto:nicolagianuzzi@gmail.com">
+              <a href="mailto:gymtrackai@gmail.com">
                 <span className="font-semibold text-[#E69506]">
-                  gymytack@gmail.com
+                  gymtrackai@gmail.com
                 </span>
               </a>
             </p>

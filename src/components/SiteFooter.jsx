@@ -31,7 +31,7 @@ const SiteFooter = () => {
       <div className="w-full md:w-1/3 lg:w-1/6">
         <p className="font-semibold mb-3 uppercase">Contacts</p>
         <div className="flex flex-col gap-0 text-sm">
-          <a href="mailto:nicolagianuzzi@gmail.com">gymytack@gmail.com</a>
+          <a href="mailto:gymtrackai@gmail.com">gymtrackai@gmail.com</a>
         </div>
       </div>
       <div className="w-full md:w-1/3 lg:w-1/6">
