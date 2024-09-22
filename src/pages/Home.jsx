@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 // Components
 import ButtonCustom from "../components/ButtonCustom";
@@ -45,10 +46,14 @@ const Home = () => {
             </div>
             <div className="flex gap-5">
               <div className="bg-[#E69506] px-4 py-3 rounded-xl inline-block text-black font-semibold">
-                Contact us
+                <Link smooth className="" to="/#family">
+                  <p>Contact us</p>
+                </Link>
               </div>
               <div className="bg-[#191919] px-4 py-3 rounded-xl inline-block font-semibold">
-                Discover more
+                <Link smooth to="/#app">
+                  <p>Discover more</p>
+                </Link>
               </div>
             </div>
           </div>
@@ -61,7 +66,7 @@ const Home = () => {
         </div>
 
         {/* What we are creating */}
-        <div className="w-full">
+        <div id="app" className="w-full">
           <div>
             <Param />
           </div>
