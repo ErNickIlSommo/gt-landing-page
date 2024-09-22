@@ -60,7 +60,7 @@ const Home = () => {
           </div>
           <div className="w-full h-1/2 xl:h-full items-center">
             <img
-              className="h-full object-cover rounded-3xl"
+              className="xl:h-full object-cover rounded-3xl"
               src={presentationImage}
             />
           </div>
