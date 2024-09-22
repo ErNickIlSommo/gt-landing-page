@@ -5,7 +5,7 @@ const FamilyCard = ({ href, image, nameMember, role }) => {
     <div className="">
       <a href={href} target="_blank">
         <div className="flex sm:flex-col gap-3 sm:justify-center sm:items-center">
-          <div className="w-20 h-20 sm:w-40 sm:h-40 xl:w-full xl:h-full rounded-full overflow-hidden">
+          <div className="w-20 h-20 sm:w-40 sm:h-40 xl:w-80 xl:h-80 rounded-full overflow-hidden">
             <img
               src={image}
               alt="member"
