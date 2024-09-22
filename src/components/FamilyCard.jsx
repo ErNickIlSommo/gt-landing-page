@@ -1,36 +1,25 @@
 import React from "react";
 
-import "../style/pulsating.scss"
-
-const FamilyCard = ({ image, name, role, href, unknown }) => {
-    return(
-        <div className="">
-            {unknown ? 
-                <div className="flex flex-col gap-3 justify-center items-center cursor-pointer">
-                    <div className="bg-[#E69506] rounded-full animate-pulse">
-                        <img src={image} alt="member" className="h-full object-cover rounded-full opacity-0"/>
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                        <a className="text-xl" href={href} target="_blank">{name}</a>
-                        <p className="text-xl text-[#808080]" >{role}</p>
-                    </div>
-                </div> 
-                :
-                <div className="flex flex-col gap-3 justify-center items-center">
-                    <a href={href} target="_blank">
-                        <div className="rounded-full overflow-hidden">
-                            <img src={image} alt="member" className="h-full object-cover rounded-full transform transition-transform duration-300 hover:scale-110"/>
-                        </div>
-                        <div className="flex flex-col justify-center items-center">
-                            <p className="text-xl">{name}</p>
-                            <p className="text-xl text-[#808080]" >{role}</p>
-                        </div>
-                    </a>
-                </div>
-            }
-            
+const FamilyCard = ({ href, image, nameMember, role }) => {
+  return (
+    <div className="">
+      <a href={href} target="_blank">
+        <div className="flex sm:flex-col gap-3 sm:justify-center sm:items-center">
+          <div className="w-20 sm:w-40 xl:w-full rounded-full overflow-hidden">
+            <img
+              src={image}
+              alt="member"
+              className="h-full object-cover rounded-full transform transition-transform duration-300 hover:scale-110"
+            />
+          </div>
+          <div className="flex flex-col justify-center sm:items-center align-middle">
+            <p className="text-sm xl:text-xl">{nameMember}</p>
+            <p className="text-sm xl:text-xl text-[#808080]">{role}</p>
+          </div>
         </div>
-    )
-}
+      </a>
+    </div>
+  );
+};
 
-export default FamilyCard
+export default FamilyCard;

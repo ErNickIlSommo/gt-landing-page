@@ -3,25 +3,23 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // pages
 import Home from "./pages/Home";
-import Confirm from "./pages/Confirm"
+import Confirm from "./pages/Confirm";
 import NotFound from "./pages/NotFound";
 
 // Components
-import SiteNavBar from "./components/SiteNavbar"
+import SiteNavBar from "./components/SiteNavbar";
 import SiteFooter from "./components/SiteFooter";
 
-
 function App() {
-
   return (
     <>
       <BrowserRouter>
         <SiteNavBar />
         <div className="min-h-screen flex flex-col justify-between">
-          <div className="mt-36 md:mt-16 px-3 md:px-10">
+          <div className="mt-10 md:mt-16 md:px-10">
             <Routes>
-              <Route index element={<Home />}/>
-              <Route path="/confirm" element={<Confirm/>} />
+              <Route index element={<Home />} />
+              <Route path="/confirm" element={<Confirm />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
@@ -29,7 +27,7 @@ function App() {
         </div>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
