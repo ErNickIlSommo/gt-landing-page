@@ -97,6 +97,7 @@ const Home = () => {
                 </span>
                 . We are now developing the MVP: Gym Tracker 1.0
                 <br />
+                <br />
                 To do so we are looking to expand our team with talented and
                 motivated people to archive our goals and bring our project to
                 life.
@@ -123,6 +124,7 @@ const Home = () => {
                 pre-accellerator program
               </span>
               . We are now developing the MVP: Gym Tracker 1.0
+              <br />
               <br />
               To do so we are looking to expand our team with talented and
               motivated people to archive our goals and bring our project to
