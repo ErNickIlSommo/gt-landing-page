@@ -37,7 +37,7 @@ const SiteFooter = () => {
       <div className="w-full md:w-1/3 lg:w-1/6">
         <p className="font-semibold mb-3 uppercase">Social</p>
         <div className="flex flex-row gap-2 text-sm">
-          <a href="https://www.linkedin.com/" target="_blank">
+          {/* <a href="https://www.linkedin.com/" target="_blank">
             <img src={linkedin} alt="instagram" className="h-6 w-6" />
           </a>
           <a href="https://www.instagram.com/" target="_blank">
@@ -45,7 +45,7 @@ const SiteFooter = () => {
           </a>
           <a href="https://www.facebook.com/" target="_blank">
             <img src={facebook} alt="instagram" className="h-6 w-6" />
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="w-full md:w-1/3 lg:w-1/6">
