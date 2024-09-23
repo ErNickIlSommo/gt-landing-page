@@ -32,7 +32,7 @@ const Home = () => {
 
               {/* Title */}
               <div className="w-full text-5xl md:text-7xl font-semibold">
-                <p className="leading-tight xl:leading-relaxed">
+                <p className="leading-tight">
                   Track your <span className="text-[#E69506]">progress</span>,
                 </p>
                 <p className="leading-tight xl:leading-relaxed">
