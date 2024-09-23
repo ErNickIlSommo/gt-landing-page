@@ -25,7 +25,7 @@ const Home = () => {
     <div>
       <div className=" flex flex-col gap-y-24">
         {/* EPIGRAMMA */}
-        <div className="flex flex-col xl:flex-row">
+        <div className="flex flex-col gap-5 xl:gap-0 xl:flex-row">
           <div className=" xl:w-9/12 flex flex-col md:mt-20 gap-5 md:gap-y-10 ">
             <div className=" flex flex-col gap-y-1">
               {/* New button */}
@@ -61,7 +61,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-full h-1/2 xl:h-full items-center">
+          <div className="w-full h-1/2 xl:h-full xl:mt-0 items-center">
             <img
               className="xl:h-full object-cover rounded-3xl"
               src={presentationImage}
