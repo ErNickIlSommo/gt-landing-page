@@ -93,14 +93,13 @@ const Home = () => {
                 the first startup incubator where our idea was tested and
                 validated throughout a{" "}
                 <span className="text-[#E69506] font-semibold">
-                  pre-accellerator program
+                  pre-accellerator program.
                 </span>
-                . We are now developing the MVP: Gym Tracker 1.0
                 <br />
                 <br />
-                To do so we are looking to expand our team with talented and
-                motivated people to archive our goals and bring our project to
-                life.
+                We are now developing the MVP: Gym Tracker 1.0 To do so we are
+                looking to expand our team with talented and motivated people to
+                archive our goals and bring our project to life.
               </p>
             </div>
           </div>
@@ -123,12 +122,12 @@ const Home = () => {
               <span className="text-[#E69506] font-semibold">
                 pre-accellerator program
               </span>
-              . We are now developing the MVP: Gym Tracker 1.0
+              .
               <br />
               <br />
-              To do so we are looking to expand our team with talented and
-              motivated people to archive our goals and bring our project to
-              life.
+              We are now developing the MVP: Gym Tracker 1.0 To do so we are
+              looking to expand our team with talented and motivated people to
+              archive our goals and bring our project to life.
             </p>
           </div>
         </div>
