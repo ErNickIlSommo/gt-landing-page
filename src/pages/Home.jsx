@@ -82,8 +82,8 @@ const Home = () => {
         <div className="flex flex-col gap-5 lg:gap-y-16" id="what-is-gymtrack">
           <div className="w-full flex flex-col lg:flex-row justify-center gap-5 lg:gap-36 items-center">
             <div className="text-center xl:text-right font-semibold gap-1">
-              {/* <p className="text-5xl lg:text-7xl">We're growing</p>
-              <p className="text-7xl lg:text-9xl">everyday</p> */}
+              <p className="text-5xl lg:text-7xl">We're growing</p>
+              <p className="text-7xl lg:text-9xl">everyday</p>
             </div>
             <div className="">
               <p className="hidden xl:block md:text-lg leading-relaxed">
