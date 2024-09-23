@@ -9,6 +9,8 @@ import FamilyCard from "../components/FamilyCard";
 // imports
 import presentationImage from "../images/image1.webp";
 
+import appImage from "../images/app.png";
+
 import video from "../images/video.mp4";
 import poster from "../images/poster.png";
 
@@ -67,21 +69,23 @@ const Home = () => {
         </div>
 
         {/* What we are creating */}
-        <div id="app" className="w-full">
-          <div>
+        <div id="app" className="w-full xl:flex xl:justify-center">
+          <div className="hidden xl:block xl:w-full xl:h-full ">
+            <img src={appImage} alt="Application" />
+          </div>
+          <div className="">
             <Param />
           </div>
         </div>
 
         {/* Video section */}
         <div className="flex flex-col gap-5 lg:gap-y-16" id="what-is-gymtrack">
-          <div className="w-full flex flex-col lg:flex-row justify-center gap-5 lg:gap-10 items-center">
+          <div className="w-full flex flex-col lg:flex-row justify-center gap-5 lg:gap-36 items-center">
             <div className="text-center xl:text-right font-semibold gap-1">
-              <p className="text-3xl md:text-5xl">We're</p>
-              <p className="text-5xl md:text-7xl">growing</p>
+              <p className="text-5xl md:text-7xl">We're growing</p>
               <p className="text-7xl md:text-9xl">everyday</p>
             </div>
-            <div className="xl:w-1/3">
+            <div className="">
               <p className="hidden xl:block md:text-lg leading-relaxed">
                 Gym Track was born in{" "}
                 <span className="text-[#E69506] font-semibold">H-Farm</span>,
