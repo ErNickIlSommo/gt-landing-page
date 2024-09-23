@@ -7,7 +7,8 @@ import Param from "../components/Param";
 import FamilyCard from "../components/FamilyCard";
 
 // imports
-import presentationImage from "../images/image1.webp";
+// import presentationImage from "../images/image1.webp";
+import presentationImage from "../images/image1.png";
 
 import appImage from "../images/app.png";
 
