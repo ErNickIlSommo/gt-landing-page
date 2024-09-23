@@ -102,7 +102,7 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="h-[50vh] md:h-[90vh]">
+          <div className="h-[40vh] md:h-[90vh]">
             <video
               controls
               playsInline
