@@ -69,14 +69,14 @@ const Home = () => {
         </div>
 
         {/* What we are creating */}
-        <div id="app" className="w-full xl:flex xl:justify-center">
+        {/* <div id="app" className="w-full xl:flex xl:justify-center">
           <div className="hidden xl:block xl:w-full xl:h-full ">
             <img src={appImage} alt="Application" />
           </div>
           <div className="">
             <Param />
           </div>
-        </div>
+        </div> */}
 
         {/* Video section */}
         <div className="flex flex-col gap-5 lg:gap-y-16" id="what-is-gymtrack">
