@@ -23,7 +23,7 @@ import unknown from "../images/team/unknown.webp";
 const Home = () => {
   return (
     <div>
-      <div className=" flex flex-col gap-y-24">
+      <div className=" flex flex-col gap-y-36">
         {/* EPIGRAMMA */}
         <div className="flex flex-col gap-2 xl:gap-0 xl:flex-row">
           <div className=" xl:w-9/12 flex flex-col md:mt-20 gap-5 md:gap-y-10 ">
@@ -80,7 +80,10 @@ const Home = () => {
         </div> */}
 
         {/* Video section */}
-        <div className="flex flex-col gap-5 lg:gap-y-16" id="what-is-gymtrack">
+        <div
+          className="lg:hidden flex flex-col gap-5 lg:gap-y-16"
+          id="what-is-gymtrack"
+        >
           <div className="w-full flex flex-col lg:flex-row justify-center gap-5 lg:gap-36 items-center">
             <div className="text-center xl:text-right font-semibold gap-1">
               <p className="text-5xl lg:text-7xl">We're growing</p>
@@ -129,6 +132,39 @@ const Home = () => {
               looking to expand our team with talented and motivated people to
               archive our goals and bring our project to life.
             </p>
+          </div>
+        </div>
+
+        <div className="hidden lg:visible lg:flex lg:justify-between gap-10">
+          <div className="w-1/2 flex flex-col gap-12">
+            <div className="w-full text-left font-semibold gap-1 z-10">
+              <p className="text-7xl">We're growing</p>
+              <p className="text-9xl">everyday</p>
+            </div>
+            <p className="w-5/6 text-lg">
+              Gym Track was born in{" "}
+              <span className="text-[#E69506] font-semibold">H-Farm</span>, the
+              first startup incubator where our idea was tested and validated
+              throughout a{" "}
+              <span className="text-[#E69506] font-semibold">
+                pre-accellerator program.
+              </span>
+              <br />
+              <br />
+              We are now developing the MVP: Gym Tracker 1.0 To do so we are
+              looking to expand our team with talented and motivated people to
+              archive our goals and bring our project to life.
+            </p>
+          </div>
+          <div className="w-1/2 h-full aspect-square">
+            <video
+              controls
+              playsInline
+              poster={poster}
+              className="h-full w-full object-cover rounded-xl"
+            >
+              <source src={video} type="video/mp4" />
+            </video>
           </div>
         </div>
 
