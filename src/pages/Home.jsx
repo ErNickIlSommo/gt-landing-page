@@ -78,7 +78,7 @@ const Home = () => {
 
         {/* Parameter section */}
         <div className="hidden lg:visible lg:flex lg:flex-col">
-          <p className="text-5xl xl:text-7xl font-semibold leading-tight xl:leading-relaxed mb-5">
+          <p className="text-5xl xl:text-7xl font-semibold text-center leading-tight xl:leading-relaxed mb-5">
             Set your goals & track your body
           </p>
           <div className="flex flex-wrap justify-center gap-10">
