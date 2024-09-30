@@ -3,14 +3,21 @@ import { HashLink as Link } from "react-router-hash-link";
 
 // Components
 import ButtonCustom from "../components/ButtonCustom";
-import Param from "../components/Param";
 import FamilyCard from "../components/FamilyCard";
+// import Param from "../components/Param";
 
 // imports
 // import presentationImage from "../images/image1.webp";
 import presentationImage from "../images/image1.png";
 
-import appImage from "../images/app.png";
+import bodyfat from "../images/bodyParameters/bodyfat.png";
+import bonemass from "../images/bodyParameters/bonemass.png";
+import idratation from "../images/bodyParameters/idratation.png";
+import musclemass from "../images/bodyParameters/musclemass.png";
+import visceralfat from "../images/bodyParameters/visceralfat.png";
+import weight from "../images/bodyParameters/weight.png";
+
+// import appImage from "../images/app.png";
 
 import video from "../images/video.mp4";
 import poster from "../images/poster.png";
@@ -66,6 +73,63 @@ const Home = () => {
               className="xl:h-full object-cover rounded-3xl"
               src={presentationImage}
             />
+          </div>
+        </div>
+
+        {/* Parameter section */}
+        <div className="hidden lg:visible lg:flex lg:flex-col">
+          <p className="text-5xl xl:text-7xl font-semibold leading-tight xl:leading-relaxed">
+            Set your goals & track your body
+          </p>
+          <div className="flex flex-wrap justify-center gap-10">
+            <div className="flex flex-col gap-10">
+              <div className="flex gap-10">
+                <div className="image">
+                  <img
+                    src={bodyfat}
+                    alt="parameter"
+                    className="h-full object-cover"
+                  />
+                </div>
+                <div className="image">
+                  <img
+                    src={bonemass}
+                    alt="parameter"
+                    className="h-full object-cove className="
+                  />
+                </div>
+                <div className="image">
+                  <img
+                    src={idratation}
+                    alt="parameter"
+                    className="h-full object-cove className="
+                  />
+                </div>
+              </div>
+              <div className="flex gap-10">
+                <div className="image">
+                  <img
+                    src={musclemass}
+                    alt="parameter"
+                    className="h-full object-cover"
+                  />
+                </div>
+                <div className="image">
+                  <img
+                    src={visceralfat}
+                    alt="parameter"
+                    className="h-full object-cove className="
+                  />
+                </div>
+                <div className="image">
+                  <img
+                    src={weight}
+                    alt="parameter"
+                    className="h-full object-cove className="
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -174,7 +238,7 @@ const Home = () => {
             The Gym Track's{" "}
             <span className="font-semibold text-[#E69506]">family</span>
           </p>
-          <div className="flex flex-wrap justify-between gap-5">
+          <div className="w-full flex flex-wrap justify-between gap-10">
             <FamilyCard
               image={Giacomo}
               nameMember="Giacomo Calabresi"
@@ -199,6 +263,18 @@ const Home = () => {
               nameMember="Luca Martarello"
               role="Electronic Engineer"
               href="https://www.linkedin.com/in/luca-martarello-34658428a/"
+            />
+            <FamilyCard
+              image={unknown}
+              nameMember="Ilaria Nalon"
+              role="UX/UI Designer"
+              href="https://www.linkedin.com/in/ilaria-nalon-517462256/"
+            />
+            <FamilyCard
+              image={unknown}
+              nameMember="Francesco Rizzetto"
+              role="Frontend Developer"
+              href=""
             />
           </div>
 
