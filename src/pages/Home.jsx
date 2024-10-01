@@ -270,12 +270,12 @@ const Home = () => {
               role="UX/UI Designer"
               href="https://www.linkedin.com/in/ilaria-nalon-517462256/"
             />
-            <FamilyCard
+            {/* <FamilyCard
               image={unknown}
               nameMember="Francesco Rizzetto"
               role="Frontend Developer"
               href=""
-            />
+            /> */}
           </div>
 
           <div className="mt-5 xl:mt-10 items-center align-middle text-center">
