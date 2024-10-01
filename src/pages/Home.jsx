@@ -238,7 +238,7 @@ const Home = () => {
             The Gym Track's{" "}
             <span className="font-semibold text-[#E69506]">family</span>
           </p>
-          <div className="w-full flex flex-wrap justify-between gap-10">
+          <div className="w-full flex flex-wrap justify-center gap-10">
             <FamilyCard
               image={Giacomo}
               nameMember="Giacomo Calabresi"
