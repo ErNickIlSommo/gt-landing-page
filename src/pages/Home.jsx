@@ -144,10 +144,7 @@ const Home = () => {
         </div> */}
 
         {/* Video section */}
-        <div
-          className="lg:hidden flex flex-col gap-5 lg:gap-y-16"
-          id="what-is-gymtrack"
-        >
+        <div className="lg:hidden flex flex-col gap-5 lg:gap-y-16">
           <div className="w-full flex flex-col lg:flex-row justify-center gap-5 lg:gap-36 items-center">
             <div className="text-center xl:text-right font-semibold gap-1">
               <p className="text-5xl lg:text-7xl">We're growing</p>
@@ -199,7 +196,10 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="hidden lg:visible lg:flex lg:justify-between gap-10">
+        <div
+          id="gymtrack"
+          className="hidden lg:visible lg:flex lg:justify-between gap-10"
+        >
           <div className="w-1/2 flex flex-col gap-12">
             <div className="w-full text-left font-semibold gap-1 z-10">
               <p className="text-7xl">We're growing</p>

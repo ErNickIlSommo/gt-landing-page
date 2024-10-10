@@ -14,7 +14,7 @@ const SiteNavBar = () => {
           </div>
         </div>
         <div className="flex gap-10 uppercase">
-          <Link smooth className="" to="/#what-is-gymtrack">
+          <Link smooth className="" to="/#gymtrack">
             Who we are
           </Link>
           <Link smooth className="" to="/#family">
