@@ -258,12 +258,12 @@ const Home = () => {
               role="Computer Engineer"
               href="https://www.linkedin.com/in/nicola-gianuzzi-8ab1a3277/"
             />
-            <FamilyCard
+            {/* <FamilyCard
               image={unknown}
               nameMember="Luca Martarello"
               role="Electronic Engineer"
               href="https://www.linkedin.com/in/luca-martarello-34658428a/"
-            />
+            /> */}
             <FamilyCard
               image={unknown}
               nameMember="Ilaria Nalon"
